@@ -1,0 +1,12 @@
+Utworzony model złożony jest narzędzi służących do wyznaczania zlewni obszarów na podstawie NMT przy wykorzystaniu oprogramowania ArcGIS
+Danymi wejściowymi modelu są arkusze NMT dla analizowanego terenu, które w pierwszym etapie są mozaikowane. 
+Tak złączony raster stanowi podstawę do dalszego działania modelu.
+Warstwą wynikową modelu jest warstwa poligonowa przedstawiająca granicę zlewni oraz informację o jej powierzchni podaną w km2
+
+W pierwszym etapie należy ustawić odpowiednią przestrzeń roboczą dla wszytkich zapisywanych przez model procesów.
+
+Stworzyny toolbox skład się z następujących narzędzi:
+
+01_NMT - (narzędzie umożliwia łączenie arkuszy w jeden raster)
+02_Watersheds for the indicated area - narzędzie do wygenerowania zlewni obszarów
+
